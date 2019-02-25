@@ -19,7 +19,7 @@ int main () {
 
         int cnt = 0;
         for (int i = 0; i < 3; ++i) {
-            std::cin >> Point.first, Point.second;
+            std::cin >> Point.first >> Point.second;
 
             cnt += check(Point.first, Point.second, Xc, Yc, Rc);
 
@@ -44,7 +44,7 @@ int main () {
 
             int cnt = 0;
             for (int i = 0; i < 3; ++i) {
-                std::cin >> Point.first, Point.second;
+                std::cin >> Point.first >> Point.second;
 
                 cnt += check(Point.first, Point.second, Xc, Yc, Rc);
 
