@@ -16,6 +16,9 @@ int main () {
     if (figure_t == "triangle") {
         float x, y;
         std::pair<float, float> Point(x, y);
+        std::tuple<std::string, float, float, float> t;
+        t = make_tuple(figure_t, x, y, Rc);
+
 
         int cnt = 0;
         for (int i = 0; i < 3; ++i) {
@@ -62,6 +65,8 @@ int main () {
             if (cnt == 4)
                 std::cout << "TOUCH";
         }
+        else
+            std::cout << "INCORRECT INPUT DATA";
 
 
 
