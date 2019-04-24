@@ -11,25 +11,30 @@
 class MyVector {
 private:
     const int n;
-    double *ptr = new double[n];
+    double *ptr;
 
 public:
     MyVector();
     MyVector(int);
     MyVector(double *ptr, int);
-    MyVector(const MyVector &, int); // copy construct
+    MyVector(const MyVector &); // copy construct
     ~MyVector();
 
-    double operator[](const int &);
+    double &operator[](const int &);
     MyVector &operator=(const MyVector &);
     MyVector &operator=(const double *);
 
-    std::ostream &operator<<(std::ostream &);
+
     std::istream &operator>>(std::istream &);
 
     MyVector &operator+(MyVector &);
 
+    int get_n () {
+        return n;
+    }
+
 };
 
+std::ostream &operator<<(std::ostream &, MyVector &);
 
 #endif //LAB3_MYVECTOR_H
