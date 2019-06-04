@@ -10,8 +10,8 @@ Book::Book() {
     city = "";
     publisher = "";
 
-    year = NULL;
-    numPages = NULL;
+    year = 0;
+    numPages = 0;
 }
 
 Book::Book(std::string author, std::string title, std::string city, std::string publisher, int year, int numPages) {

@@ -4,15 +4,9 @@
 
 #include "LibraryItem.h"
 
-//LibraryItem::LibraryItem() {
-//    invNumber = BibliographicItem::getCntItems();
-//}
-//
-//LibraryItem::LibraryItem(std::string invNumber) {
-//
-//    this->invNumber = invNumber;
-//}
+int LibraryItem::cnt = 0;
 
-//LibraryItem::LibraryItem(const LibraryItem & libraryItem) {
-//    cntItems ++;
-//}
+LibraryItem::LibraryItem() : BibliographicItem(){
+
+    invNumber = cnt++;
+}

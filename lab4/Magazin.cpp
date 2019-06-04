@@ -5,9 +5,9 @@
 #include "Magazin.h"
 
 Magazin::Magazin() {
-    volume = NULL;
-    number = NULL;
-    year = NULL;
+    volume = 0;
+    number = 0;
+    year = 0;
     title = "";
 }
 

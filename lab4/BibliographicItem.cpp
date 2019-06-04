@@ -5,7 +5,6 @@
 #include "BibliographicItem.h"
 
 BibliographicItem::BibliographicItem() {
-    BibliographicItem::cntItems++;
 }
 
 std::ostream& operator << (std::ostream &out, BibliographicItem &bibItem) {

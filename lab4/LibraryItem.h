@@ -7,19 +7,22 @@
 
 
 #include "BibliographicItem.h"
+#include <vector>
 
-
-class LibraryItem : BibliographicItem {
+class LibraryItem : public BibliographicItem {
 
 private:
     int invNumber;
     bool taken;
-//    static int cntItems;
-public:
 
-//    LibraryItem();
-//    LibraryItem(std::string);
-//    LibraryItem(const LibraryItem &);
+    static int cnt;
+
+//    std::vector <std::string> vec_str;
+
+public:
+    
+    LibraryItem();
+//    LibraryItem(std::string, std::string, std::string);
 
     bool isAvailable(){
         if (taken) {
@@ -30,7 +33,6 @@ public:
     }
 
     int getInvNumber() {
-        invNumber = BibliographicItem::getCntItems();
         return invNumber;
     }
 

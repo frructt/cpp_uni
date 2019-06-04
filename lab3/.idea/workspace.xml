@@ -18,6 +18,18 @@
       <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/CMakeFiles/lab1.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/cmake-build-debug/lab1.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/CMakeFiles/lab2.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/cmake-build-debug/lab2.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/cmake-build-debug/lab2.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/BibliographicItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/BibliographicItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/BibliographicItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/BibliographicItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/Book.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/Book.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/LibraryItem.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/LibraryItem.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/LibraryItem.h" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/LibraryItem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/Magazin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/Magazin.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -49,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyVector.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="1411">
+              <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -58,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MyVector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="112">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#90#107#0" expanded="true" />
               </folding>
@@ -95,6 +107,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Laba_5_OOP" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -133,6 +146,9 @@
       <workItem from="1555505246443" duration="9203000" />
       <workItem from="1556105705203" duration="4085000" />
       <workItem from="1556130952604" duration="931000" />
+      <workItem from="1559075224834" duration="198000" />
+      <workItem from="1559117920595" duration="6339000" />
+      <workItem from="1559397929821" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="overload +,&lt;&lt;,&gt;&gt;,=,[] for MyVector">
       <created>1555490277137</created>
@@ -148,11 +164,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556131744704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix bags">
+      <created>1559075351294</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559075351295</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40192000" />
+    <option name="totallyTimeSpent" value="46959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,6 +206,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32867134" />
       <window_info anchor="bottom" id="CMake" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32867134" />
+      <window_info anchor="right" id="PlantUML" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -196,32 +220,33 @@
     <MESSAGE value="overload +,&lt;&lt;,&gt;&gt;,=,[] for MyVector" />
     <MESSAGE value="fix bags" />
     <option name="LAST_COMMIT_MESSAGE" value="fix bags" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/MyVector.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1411">
+          <caret line="83" column="33" selection-start-line="83" selection-start-column="33" selection-end-line="83" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MyVector.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="112">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="e#90#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyVector.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="85">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

@@ -7,22 +7,22 @@
 
 //#include <string>
 #include <iostream>
+#include <vector>
+
+
 
 class BibliographicItem {
-private:
-    static int cntItems;
+public:
 
 public:
 
     BibliographicItem();
-
-    static int getCntItems() {
-        return cntItems;
-    }
+//    BibliographicItem(std::string, std::string, std::string);
 
     virtual std::string getInfo() = 0;
 
 private:
+
     friend std::ostream &operator<<(std::ostream &, const BibliographicItem &);
 };
 
